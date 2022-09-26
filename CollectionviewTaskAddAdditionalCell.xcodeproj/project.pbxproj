@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		02B2AE1E28BD15C4005B56E3 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2AE1D28BD15C4005B56E3 /* PopupViewController.swift */; };
 		02B2AE2028BD4CD3005B56E3 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2AE1F28BD4CD3005B56E3 /* AddCell.swift */; };
-		02B4EB0728BCF9A400D15246 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4EB0628BCF9A400D15246 /* Section.swift */; };
 		02B4EB0928BCFA0F00D15246 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4EB0828BCFA0F00D15246 /* ColorModel.swift */; };
 		02B4EB0C28BCFA7E00D15246 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4EB0B28BCFA7E00D15246 /* UIColor+Extension.swift */; };
 		02D7C95B28BCF46500A75CA6 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7C95A28BCF46500A75CA6 /* ColorCell.swift */; };
@@ -19,12 +18,12 @@
 		02DAC79B28BCECF000BED70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DAC79928BCECF000BED70C /* Main.storyboard */; };
 		02DAC79D28BCECF200BED70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DAC79C28BCECF200BED70C /* Assets.xcassets */; };
 		02DAC7A028BCECF200BED70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DAC79E28BCECF200BED70C /* LaunchScreen.storyboard */; };
+		02E331F028BE58EE0063F7E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E331EF28BE58EE0063F7E3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02B2AE1D28BD15C4005B56E3 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		02B2AE1F28BD4CD3005B56E3 /* AddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
-		02B4EB0628BCF9A400D15246 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		02B4EB0828BCFA0F00D15246 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		02B4EB0B28BCFA7E00D15246 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		02D7C95A28BCF46500A75CA6 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		02DAC79C28BCECF200BED70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DAC79F28BCECF200BED70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02DAC7A128BCECF200BED70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E331EF28BE58EE0063F7E3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		02B4EB0428BCF7DE00D15246 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				02B4EB0628BCF9A400D15246 /* Section.swift */,
 				02B4EB0828BCFA0F00D15246 /* ColorModel.swift */,
+				02E331EF28BE58EE0063F7E3 /* Model.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -197,10 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B4EB0C28BCFA7E00D15246 /* UIColor+Extension.swift in Sources */,
-				02B4EB0728BCF9A400D15246 /* Section.swift in Sources */,
 				02DAC79828BCECF000BED70C /* ViewController.swift in Sources */,
 				02D7C95B28BCF46500A75CA6 /* ColorCell.swift in Sources */,
 				02DAC79428BCECF000BED70C /* AppDelegate.swift in Sources */,
+				02E331F028BE58EE0063F7E3 /* Model.swift in Sources */,
 				02DAC79628BCECF000BED70C /* SceneDelegate.swift in Sources */,
 				02B2AE2028BD4CD3005B56E3 /* AddCell.swift in Sources */,
 				02B4EB0928BCFA0F00D15246 /* ColorModel.swift in Sources */,

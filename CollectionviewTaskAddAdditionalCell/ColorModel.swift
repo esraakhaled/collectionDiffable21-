@@ -10,17 +10,17 @@ import UIKit
 struct ColorModel: Hashable,Equatable{
     //MARK: - Properties
     let id = UUID()
-    let color : UIColor
+    let color : UIColor?
     let name:String
     let image: UIImage?
    
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
-    static func ==(lhs: ColorModel, rhs: ColorModel) -> Bool {
+  static func ==(lhs: ColorModel, rhs: ColorModel) -> Bool {
         return lhs.id == rhs.id
-    }
-   init(name: String,image: UIImage? = nil,color: UIColor){
+   }
+    init(name: String,image: UIImage? = nil,color: UIColor? = nil){
         self.name = name
         self.image = image
        self.color = color

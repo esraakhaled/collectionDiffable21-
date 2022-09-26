@@ -8,6 +8,7 @@
 import UIKit
 
 class AddCell: UICollectionViewCell {
+     static let reuseIdentifier = "AddCell"
     @IBOutlet weak var musicImg: UIImageView!
     
     @IBOutlet weak var view: UIView!
@@ -22,17 +23,5 @@ class AddCell: UICollectionViewCell {
     override class func awakeFromNib() {
         super.awakeFromNib()
     }
-    override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
-           
-            setNeedsLayout()
-            layoutIfNeeded()
-           
-            let size = contentView.systemLayoutSizeFitting(layoutAttributes.size)
-           
-            var frame = layoutAttributes.frame
-            frame.size.height = ceil(size.height)
-            layoutAttributes.frame = frame
-           
-            return layoutAttributes
-        }
+    
 }
